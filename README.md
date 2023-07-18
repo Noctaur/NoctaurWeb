@@ -2,7 +2,7 @@
 
 ## Descripción de su proyecto
 
-Creación e implementación de una landing page para la empresa Noctaur Studio Animation
+Creación e implementación de una landing page para la empresa Noctaur Studio Animation.
 
 ## Screenshot
 
