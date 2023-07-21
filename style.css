@@ -1,0 +1,40 @@
+  /* Fuentes */
+@font-face {
+    font-family: 'Kozuka Gothic Pro';
+    src: url('Fonts/KozGoProBold.otf') format('opentype'),
+         url('Fonts/KozGoProLight.otf') format('opentype'),
+         url('Fonts/KozGoProMedium.otf') format('opentype'),
+         url('Fonts/KozGoProRegular.otf') format('opentype');
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+  
+  
+  /* Variables de color */
+  :root {
+    --color-blanco: #F9F9F9;
+    --color-negro: #050505;
+  }
+
+  /* Configuración global */
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: var(--color-blanco);
+
+  }
+  
+  html {
+    font-family: 'Kozuka Gothic Pro', Noto Sans JP, sans-serif;
+    font-size: 16px;
+    height: 100vh;
+  }
+
+  body{
+    background-image: url("resources/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-size: cover;
+  }
